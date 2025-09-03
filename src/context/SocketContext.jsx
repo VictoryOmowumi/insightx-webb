@@ -9,7 +9,7 @@ export const SocketProvider = ({ children }) => {
   useEffect(() => {
     // Use the production API URL for socket connection
     const socketUrl = import.meta.env.PROD 
-      ? 'https://insightx-1ixfenb9u-victoryomowumis-projects.vercel.app'
+      ? 'https://insightx-ya2k.onrender.com'
       : 'http://localhost:5000';
     
     const newSocket = io(socketUrl, {

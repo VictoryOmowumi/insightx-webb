@@ -1,1 +1,1 @@
-export const baseUrl = 'https://insightx-1ixfenb9u-victoryomowumis-projects.vercel.app/api/';
+export const baseUrl = 'https://insightx-ya2k.onrender.com/api/';
