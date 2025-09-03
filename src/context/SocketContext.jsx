@@ -7,7 +7,12 @@ export const SocketProvider = ({ children }) => {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    const newSocket = io(import.meta.env.VITE_API_URL, {
+    // Use the production API URL for socket connection
+    const socketUrl = import.meta.env.PROD 
+      ? 'https://insightx-1ixfenb9u-victoryomowumis-projects.vercel.app'
+      : 'http://localhost:5000';
+    
+    const newSocket = io(socketUrl, {
       withCredentials: true,
     });
 

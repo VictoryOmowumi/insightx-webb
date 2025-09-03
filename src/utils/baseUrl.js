@@ -1,1 +1,1 @@
-export const baseUrl = 'http://localhost:5000/api/';
+export const baseUrl = 'https://insightx-1ixfenb9u-victoryomowumis-projects.vercel.app/api/';
