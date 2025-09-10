@@ -16,16 +16,16 @@ A comprehensive full-stack web application for managing marketing activities, fo
 ## 📸 Screenshots
 
 ### Dashboard Overview
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](/src/assets/screenshots/dashboard.png)
 *Main dashboard showing key metrics, recent activities, and quick access to features*
 
 ### Forms Management
-![Forms](screenshots/forms.png)
+![Forms](/src/assets/screenshots/forms.png)
 *Form builder interface with drag-and-drop functionality for creating custom forms*
 
-### Activities Management
-![Activities](screenshots/activities.png)
-*Activity management system for tracking marketing campaigns and events*
+### Authentication
+![Login](/src/assets/screenshots/login.png)
+*Clean and modern login interface with Google OAuth and traditional email/password options*
 
 ## ✨ Features
 
