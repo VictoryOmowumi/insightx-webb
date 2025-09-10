@@ -246,8 +246,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Victory Balogun**
 - Email: victorybalogun@gmail.com
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [Your GitHub Profile]
+- LinkedIn: www.linkedin.com/in/victory-omowumi-b-1465a9101
+- GitHub: [[Your GitHub Profile]](https://github.com/VictoryOmowumi/)
 
 ## 🙏 Acknowledgments
 
