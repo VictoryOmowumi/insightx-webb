@@ -41,7 +41,7 @@ const FormsDashboard = () => {
   }
 
   return (
-    <div className='flex flex-col gap-4'>
+    <div className='flex flex-col gap-4 overflow-clip'>
       <div className="flex flex-wrap justify-between gap-4 md:gap-0 items-center mt-2 md:mx-5">
         <div className="flex flex-col">
           <h1 className="text-3xl md:text-5xl capitalize">Form Management</h1>
@@ -64,10 +64,7 @@ const FormsDashboard = () => {
       <SummaryCards />
       {
         view === 'cards' ? (
-          <div className="grid grid-cols-1 md:grid-cols-3  gap-2 items-center md:mx-5">
-            {/* <NewFormButton /> */}
             <FormCards forms={forms} loading={loading} />
-          </div>
         ) : (
           <FormsTable forms={forms} loading={loading} />
         )

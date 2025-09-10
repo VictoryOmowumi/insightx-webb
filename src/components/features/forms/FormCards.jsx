@@ -8,7 +8,7 @@ const FormCards = ({ loading, forms }) => {
 
 
   return (
-    <div className="flex gap-2 flex-wrap md:flex-nowrap">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
       {loading
         ? Array.from({ length: 3 }).map((_, index) => (
           <div
@@ -23,7 +23,7 @@ const FormCards = ({ loading, forms }) => {
         : forms.map((form) => (
           <div
             key={form._id}
-            className="flex md:max-w-[350px] flex-col justify-between  p-5 bg-[#faf7eda1] dark:bg-neutral-700 min-w-[350px] w-full h-[190px]  rounded-[20px]  cursor-pointer transition-all duration-300"
+            className="flex flex-col justify-between  p-5 bg-[#faf7eda1] dark:bg-neutral-700 min-w-[350px] w-full h-[190px]  rounded-[20px]  cursor-pointer transition-all duration-300"
           >
             <div className="flex justify-between ">
               <h1 className="truncate text-lg font-semibold text-gray-900 dark:text-gray-100 flex items-center gap-1">
